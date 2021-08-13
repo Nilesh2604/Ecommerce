@@ -1,0 +1,128 @@
+@media screen and (max-width:1100px){
+   
+    .navbar{
+        flex-direction: column;
+        margin: auto;
+
+       
+    }
+    header{
+        height: 140px;
+        max-width: 1040px;
+       
+    }
+    .logo img {
+       
+       justify-content: center;
+        margin-top: 10px;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .search input{
+        width: 200px;
+        justify-content: center;
+    }
+    .btn{
+        margin-left: -40px;
+    }
+    .slider img{
+        
+       
+       
+    margin-top: 10px;
+        
+       
+       width: 500px;
+       margin-right: 100px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+       
+       
+       
+        
+    }
+   
+    .card1{
+        max-width: 1000px;
+        display: flex;
+        flex-direction:row;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+       
+    
+    }
+    .card-details{
+        max-width: 200px;
+        margin-left: 0px;
+    }
+    .card-details img{
+        width: 100px ;
+        height:100px;
+        
+    }
+    footer{
+        background-color:  #287ff0;
+        max-width: 1040px;
+    }
+    .my-3{
+        width: 100px;
+    }
+   .card h2{
+      
+       width: 200px;
+      
+
+    }
+    .slider{
+        margin-left: 120px;
+    }
+}
+@media screen and (max-width:600px){
+    .card1{
+        max-width: 1000px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+       
+    
+    }
+    .slider img{
+        
+       
+       
+        margin-top: 10px;
+        
+       
+       width: 300px;
+       height: 300px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin-left: -70px;
+       
+       
+       
+        
+    }
+    .container{
+    min-height: calc(100vh - 153px - 60vh);
+    }
+    .card h2{
+      
+      margin: auto;
+       
+ 
+     }
+}
+@media screen and (max-width:1450px){
+   .card1{
+
+  margin:10px -18px;
+}
+  .container{
+    min-height: calc(100vh - 153px - 60vh);
+    }
+}

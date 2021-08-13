@@ -1,0 +1,18 @@
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn{
+    padding:5px 10px;
+    color:var( --main-bg-color);
+    cursor:pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+    background:white;
+    font-weight: bold;
+}
+.btn:hover{
+    color: purple;
+}
